@@ -10,4 +10,4 @@ wheels/
 .venv
 
 # marimo
-__marimo__/
+__marimo__
