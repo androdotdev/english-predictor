@@ -1,6 +1,3 @@
-def main():
-    print("Hello from english-predictor!")
+from app import run_app
 
-
-if __name__ == "__main__":
-    main()
+run_app()

@@ -1,0 +1,133 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.2",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "d95400b11093f428d03dcc8398b8fcd9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "be8836bd39da20b9b9f57d4ec22fe3f0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "8c4d386b4ae570643ae18116c13dc5b4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "9f53987df19ef959e35334d6cfa11645",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "5a11c3cd2f0fcff948b92f729f57040f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "New LinearSVC Accuracy: 0.64\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "PKri",
+      "code_hash": "ff6ee114ac6f2ca480c90c00e69a5af5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "ea0da60889ff2968d2bece72007f6870",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "---  Confusion Matrix ---\n[[62  5  0  0  0  0]\n [20 28  2  1  1  0]\n [ 1  5 13 13  3  1]\n [ 0  2  9 33 10  0]\n [ 0  0  3 15 24  9]\n [ 0  0  0  3  5 31]]\n\n--- Classification Report ---\n              precision    recall  f1-score   support\n\n          A1       0.75      0.93      0.83        67\n          A2       0.70      0.54      0.61        52\n          B1       0.48      0.36      0.41        36\n          B2       0.51      0.61      0.55        54\n          C1       0.56      0.47      0.51        51\n          C2       0.76      0.79      0.78        39\n\n    accuracy                           0.64       299\n   macro avg       0.63      0.62      0.61       299\nweighted avg       0.63      0.64      0.63       299\n\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "f48d5b25a2a4012380607ae234270da0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[\"model/cefr_model.joblib\"]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "GQeV",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
