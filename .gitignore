@@ -1,12 +1,19 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
+*.egg-info/
 build/
 dist/
 wheels/
-*.egg-info
 
 # Virtual environments
-.venv
+.venv/
 
+# Jupyter / Marimo
+.ipynb_checkpoints/
+.marimo/
 
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
